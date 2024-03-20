@@ -1,0 +1,31 @@
+:root {
+    --logo-dark-blue: #002F87;
+    --logo-gold: #C9A600;
+    --brand-light-blue: #1597DD;
+    --brand-grey: #737B82;
+}
+
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    border-bottom: 20px solid var(--brand-light-blue);
+}
+
+.bc-logo {
+    max-width: 50%;
+    height: auto;
+}
+
+.blue-border {
+    border: 1px dotted blue;
+}
